@@ -12,6 +12,8 @@ class ChallengeOne{
 		Scanner in = new Scanner(System.in);
 		try{
 			int minutes = in.nextInt();
+			in.close();
+
 			if(minutes < 0) throw new InputMismatchException();
 			
 			System.out.println(minutes + " minutes -> " + minutesToSeconds(minutes) + " seconds");
