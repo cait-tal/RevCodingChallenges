@@ -63,3 +63,15 @@ class ChallengeTwo{
 	}
 }
 
+class ChallengeThree {
+	public static void main(String... args) {
+		System.out.println("4 is equal to 8: " + isSameNum(4, 8)); // false
+		System.out.println("2 is equal to 2: " + isSameNum(2, 2)); // true
+		System.out.println("42 is equal to 32: " + isSameNum(42, 32)); // false
+	}
+
+	static boolean isSameNum(int x, int y) {
+		return x == y;
+	}
+}
+
